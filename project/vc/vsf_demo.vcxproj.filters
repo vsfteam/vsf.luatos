@@ -760,6 +760,15 @@
     <Filter Include="vsf\hal\driver\x86\win\rng">
       <UniqueIdentifier>{73339348-5f90-489b-8351-58bf55a80be6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="vsf\shell\sys\luatos">
+      <UniqueIdentifier>{51a311e2-6122-4d74-bf98-ed6cbf24cb45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\shell\sys\luatos\raw">
+      <UniqueIdentifier>{2dacce80-6cce-4683-aae2-aea57c15e016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\shell\sys\luatos\port">
+      <UniqueIdentifier>{c0a4f842-7dda-41e2-896e-46ebd3dfc2cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\vsf\source\vsf.h">
@@ -1977,12 +1986,14 @@
     <ClInclude Include="..\..\vsf\source\hal\driver\common\i2s\i2s_template.h">
       <Filter>vsf\hal\driver\common\i2s</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\application\vsf_usr_cfg.h" />
     <ClInclude Include="..\..\vsf\source\hal\driver\common\dac\dac_template.h">
       <Filter>vsf\hal\driver\common\dac</Filter>
     </ClInclude>
     <ClInclude Include="..\..\vsf\source\hal\driver\x86\win\rng\rng.h">
       <Filter>vsf\hal\driver\x86\win\rng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\application\vsf_usr_cfg.h">
+      <Filter>application</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -2700,12 +2711,14 @@
     <ClCompile Include="..\..\vsf\source\shell\sys\linux\lib\3rd-party\getopt\getopt_long.c">
       <Filter>vsf\shell\sys\linux\lib\3rd-party\getopt</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\application\main.c" />
     <ClCompile Include="..\..\vsf\source\hal\driver\common\dac\dac_common.c">
       <Filter>vsf\hal\driver\common\dac</Filter>
     </ClCompile>
     <ClCompile Include="..\..\vsf\source\hal\driver\x86\win\rng\rng.c">
       <Filter>vsf\hal\driver\x86\win\rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\application\main.c">
+      <Filter>application</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
